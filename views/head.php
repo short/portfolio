@@ -11,7 +11,7 @@
   </head>
   <body>
 
-  <div class="header" id="header">
+  <div class="header mooth-bounce-in-up" id="header">
 		<img src="../images/header.jpg" />
 	</div>
 
