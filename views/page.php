@@ -7,7 +7,7 @@
     <div id="about" class="materialize">
       <h2 class="mooth-fade-in-left-big">Over Mij</h2>
 
-    </div>
+    </div><br />
     <div id="skills" class="materialize">
       <h2>Mijn Skills</h2>
 

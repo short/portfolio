@@ -21,11 +21,11 @@ nav ul li a:hover         { color: rgba(107, 185, 240, 1); text-decoration: none
 	.fixed                  { position: absolute; }
 	nav                     { position: absolute; }
   nav ul                  { max-height: 0em; margin-top: 25px; margin-left: -380px; }
-	nav ul .image           { display: none; }
-	nav ul li.item4         { margin-left: -60px !important; }
+	nav ul .first           { margin: 15px 0 0 0; }
+	nav ul .first a 				{ margin: 0 0 0 20px; }
   .NavImg                 { visibility: hidden; }
-  .showing                { padding-top: 50px; max-height: 25em; }
-  nav ul li               { box-sizing: border-box; width: 100%; text-align: left; background-color: #F0F0F0; }
+  .showing                { padding-top: 50px; width: 100%; max-height: 25em; margin: 0 0 0 -40px; }
+  nav ul li               { box-sizing: border-box; width: 100%; text-align: left; background-color: rgba(0, 0, 0, 0.4); }
   nav ul li a:hover       { border-bottom: none; }
-  .menudown               { width: 100%; background: #FF6820; text-align: center; box-sizing: border-box; padding: 15px 10px; color: white; display: block; }
+  .menudown               { width: 100%; background: rgba(0, 0, 0, 0.4); text-align: center; box-sizing: border-box; padding: 15px 10px; color: white; display: block; }
 }

@@ -6,7 +6,7 @@
 		<nav>
 			<div id="nav_wrapper">
 				<ul>
-					<li class="mooth-fade-in-left"><a href="#header">Home</a></li>
+					<li class="mooth-fade-in-left first"><a href="#header">Home</a></li>
 					<li class="mooth-fade-in-up"><a href="#about">About me</a></li>
 					<li class="mooth-fade-in-down"><a href="#skills">Skills</a></li>
 					<li class="mooth-fade-in-up"><a href="#work">Work</a></li>
