@@ -26,7 +26,7 @@ $(window).scroll(function(){
   var Scrollings = $(this).scrollTop();
 
   $('.header h1').css({
-    'transform' : 'translate(0px, '+ -Scrollings /5 +'%)'
+    'transform' : 'translate(0px, '+ -Scrollings /4 +'%)'
   });
 
 });
