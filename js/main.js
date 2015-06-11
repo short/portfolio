@@ -46,13 +46,13 @@ $(window).scroll(function(){
 
   var done = true;
 
-  if(Scrollings > $('.bar1').offset().top - 400) {
+  if(Scrollings > $('.diagram').offset().top - 400) {
 
     if(done) {
       $(".bar1").animate({width:'200px'},1000);
-      $(".bar1").animate({width:'260px'},1000);
-      $(".bar1").animate({width:'120px'},1000);
-      $(".bar1").animate({width:'160px'},1000);
+      $(".bar2").animate({width:'260px'},1000);
+      $(".bar3").animate({width:'120px'},1000);
+      $(".bar4").animate({width:'160px'},1000);
       done = false;
     }
 
