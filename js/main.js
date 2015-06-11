@@ -17,11 +17,16 @@ $(function() {
    }
   });
 
+});
+
+
+$(window).scroll(function(){
+
   //parrallax
   var Scrollings = $(this).scrollTop();
 
-  $('.main-header').css({
-    'transform' : 'translate(0px, '+ Scrollings /2 +'%)'
+  $('.header h1').css({
+    'transform' : 'translate(0px, '+ -Scrollings /5 +'%)'
   });
 
 });
