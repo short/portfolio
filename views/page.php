@@ -4,20 +4,20 @@
     <meta charset="utf-8">
   </head>
   <body>
-    <div id="about" class="materialize mooth-bounce-in-down">
-      <h2>Over Mij</h2>
+    <div id="about" class="materialize">
+      <h2 class="mooth-fade-in main-header">Over Mij</h2>
 
     </div>
-    <div id="skills" class="materialize mooth-fade-in">
-      <h2>Mijn Skills</h2>
+    <div id="skills" class="materialize">
+      <h2 class="mooth-fade-in">Mijn Skills</h2>
 
     </div>
-    <div id="work" class="materialize mooth-fade-in">
-      <h2>Mijn Werk</h2>
+    <div id="work" class="materialize">
+      <h2 class="mooth-fade-in">Mijn Werk</h2>
 
     </div>
-    <div id="contact" class="materialize mooth-fade-in">
-      <h2>Huur mij in</h2>
+    <div id="contact" class="materialize">
+      <h2 class="mooth-fade-in">Huur mij in</h2>
 
     </div>
   </body>

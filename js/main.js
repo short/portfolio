@@ -17,4 +17,11 @@ $(function() {
    }
   });
 
+  //parrallax
+  var Scrollings = $(this).scrollTop();
+
+  $('.main-header').css({
+    'transform' : 'translate(0px, '+ Scrollings /2 +'%)'
+  });
+
 });
