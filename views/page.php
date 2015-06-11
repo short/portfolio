@@ -21,7 +21,20 @@
     </div>
     <div id="skills" class="materialize">
       <h2 class="mooth-fade-in">Mijn Skills</h2>
-
+      <p class="mooth-fade-in">Hier is een overzicht van mijn skills.</p>
+        <div class="diagram mooth-fade-in">
+          <p>HTML/CSS</p><div class="bar1">50%</div>
+          <p>PHP</p><div class="bar2">65%</div>
+          <p>Javascript</p><div class="bar3">30%</div>
+          <p>Jquery</p><div class="bar4">40%</div>
+        </div>
+        <p class="mooth-fade-in after-diagram">Andere skills: Photoshop en het responsive maken van websites voor elk platform.</p>
+        <div class="images">
+          <img src="../images/tablet.png" alt="tablet" class="tablet" />
+          <img src="../images/desktop.png" alt="desktop" class="desktop" />
+          <img src="../images/mobile.png" alt="mobile" class="mobile" />
+          <img src="../images/laptop.png" alt="laptop" class="laptop" />
+        </div>
     </div>
     <div id="work" class="materialize">
       <h2 class="mooth-fade-in">Mijn Werk</h2>

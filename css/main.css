@@ -4,22 +4,33 @@ body,html                                 { margin: 0; padding: 0; background:#f
 .materialize                              { background-color: #fff ; box-shadow: 0px 1px 1px #888; }
 .materialize:nth-child(2n+2)              { background-color: #f9f9f9; }
 .wrapper                                  { position: relative; margin: 0;}
-p                                         { color: rgba(107, 185, 250, 1); width: 450px; }
+p                                         { color: rgba(107, 185, 250, 1); }
 
 #about                                    { width: 100%; height: 900px; margin: 587px 0 0 0; padding: 0; }
 #about h2                                 { color: rgba(107, 185, 240, 1); text-align: center; padding: 120px 0 15px 0; width: 400px; display: block; margin: 0 auto; border-bottom: 1px solid rgba(107, 185, 240, 1); }
 #about img                                { height: 250px; width: auto; display: block; margin: 75px auto 0 auto; border: 3px solid rgba(107, 185, 240, 1); border-radius: 25px; opacity: 0; transform: translateX(40px); transition: all 0.6s ease-in-out; }
 #about .showing-me                        { opacity: 1; transform: translateX(0px); }
-#about p                                  { display: block; margin: 40px auto 0 auto; }
+#about p                                  { width: 450px; display: block; margin: 40px auto 0 auto; }
 
-#skills                                   { width: 100%; height: 900px; margin: -0.5px 0 0 0; padding: 0; }
-#skills h2                                { color: rgba(107, 185, 240, 1); text-align: center; padding: 120px 0 0 0; width: 400px; display: block; margin: 0 auto; border-bottom: 1px solid rgba(107, 185, 240, 1); }
+#skills                                   { width: 100%; height: 1100px; margin: -0.5px 0 0 0; padding: 0; }
+#skills h2                                { color: rgba(107, 185, 240, 1); text-align: center; padding: 120px 0 15px 0; width: 400px; display: block; margin: 0 auto; border-bottom: 1px solid rgba(107, 185, 240, 1); }
+#skills p                                 { width: 450px; display: block; margin: 40px auto 0 auto; text-align: center; }
+
+#skills .diagram                          { width: 450px; display: block; margin: 0 auto; }
+#skills .diagram p                        { text-align: left; }
+#skills .diagram .bar1                    { height: 25px; width: 0px; display: block; background-color: rgba(107, 185, 240, 1); color: #fff; padding: 10px 0 0 0; text-align: center; float: left; margin: -25px 0 0 100px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; }
+#skills .diagram .bar2                    { height: 25px; width: 0px; display: block; background-color: rgba(107, 185, 240, 1); color: #fff; padding: 10px 0 0 0; text-align: center; float: left; margin: -25px 0 0 100px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; }
+#skills .diagram .bar3                    { height: 25px; width: 0px; display: block; background-color: rgba(107, 185, 240, 1); color: #fff; padding: 10px 0 0 0; text-align: center; float: left; margin: -25px 0 0 100px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; }
+#skills .diagram .bar4                    { height: 25px; width: 0px; display: block; background-color: rgba(107, 185, 240, 1); color: #fff; padding: 10px 0 0 0; text-align: center; float: left; margin: -25px 0 0 100px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; }
+#skills .after-diagram                    { margin: 50px auto 0 auto; }
+
+#skills .images                           { width: 960px; display: block; margin: 0 auto; }
 
 #work                                     { width: 100%; height: 900px; margin: -20px 0 0 0; padding: 0; }
-#work h2                                  { color: rgba(107, 185, 240, 1); text-align: center; padding: 120px 0 0 0; width: 400px; display: block; margin: 0 auto; border-bottom: 1px solid rgba(107, 185, 240, 1); }
+#work h2                                  { color: rgba(107, 185, 240, 1); text-align: center; padding: 120px 0 15px 0; width: 400px; display: block; margin: 0 auto; border-bottom: 1px solid rgba(107, 185, 240, 1); }
 
 #contact                                  { width: 100%; height: 900px; margin: -20px 0 0 0; padding: 0; }
-#contact h2                               { color: rgba(107, 185, 240, 1); text-align: center; padding: 120px 0 0 0; width: 400px; display: block; margin: 0 auto; border-bottom: 1px solid rgba(107, 185, 240, 1); }
+#contact h2                               { color: rgba(107, 185, 240, 1); text-align: center; padding: 120px 0 15px 0; width: 400px; display: block; margin: 0 auto; border-bottom: 1px solid rgba(107, 185, 240, 1); }
 
 @media screen and (max-width:960px) {
   .header                                 { height: 350px; }
