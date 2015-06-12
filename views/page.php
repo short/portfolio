@@ -30,10 +30,10 @@
         </div>
         <p class="mooth-fade-in after-diagram">Andere skills: Photoshop en het responsive maken van websites voor elk platform.</p>
         <div class="images">
-          <img src="../images/tablet.png" alt="tablet" class="tablet" />
-          <img src="../images/desktop.png" alt="desktop" class="desktop" />
-          <img src="../images/mobile.png" alt="mobile" class="mobile" />
-          <img src="../images/laptop.png" alt="laptop" class="laptop" />
+          <img src="../images/tablet.png" alt="tablet" class="tablet mooth-fade-in-left" />
+          <img src="../images/desktop.png" alt="desktop" class="desktop mooth-fade-in-left" />
+          <img src="../images/mobile.png" alt="mobile" class="mobile mooth-fade-in-right" /><br />
+          <img src="../images/laptop.png" alt="laptop" class="laptop mooth-fade-in-right" />
         </div>
     </div>
     <div id="work" class="materialize">
