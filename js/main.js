@@ -34,6 +34,7 @@ $(window).scroll(function(){
     'transform' : 'translate(0px, '+ -Scrollings /4 +'%)'
   });
 
+  /*
   if(Scrollings > $('.me').offset().top - 400) {
 
     $('.me').each(function(){
@@ -43,6 +44,7 @@ $(window).scroll(function(){
     });
 
   }
+  */
 
   var done = true;
 

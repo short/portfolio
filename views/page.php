@@ -6,7 +6,7 @@
   <body>
     <div id="about" class="materialize">
       <h2 class="mooth-fade-in main-header">Over Mij</h2>
-        <img src="../images/me.jpg" alt="me" class="me" />
+        <img src="../images/me.jpg" alt="me" class="me mooth-fade-in-right" />
         <p class="mooth-fade-in" >Het is al geruime tijd een bekend gegeven dat een lezer,
           tijdens het bekijken van de layout van een pagina, afgeleid
           wordt door de tekstuele inhoud. Het belangrijke punt van het
@@ -20,9 +20,9 @@
           van de jaren, soms per ongeluk soms expres (ingevoegde humor en dergelijke).</p>
     </div>
     <div id="skills" class="materialize">
-      <h2 class="mooth-fade-in">Mijn Skills</h2>
-      <p class="mooth-fade-in">Hier is een overzicht van mijn skills.</p>
-        <div class="diagram mooth-fade-in">
+      <h2 class="mooth-fade-in">Mijn Vaardigheden</h2>
+      <p class="mooth-fade-in">Hier is een overzicht van mijn vaardigheden.</p>
+        <div class="bars diagram mooth-fade-in">
           <p>HTML/CSS</p><div class="bar1">50% 1,5 jaar</div>
           <p>PHP</p><div class="bar2">65% 1 jaar</div>
           <p>Javascript</p><div class="bar3">30% 1,5 jaar</div>
@@ -38,7 +38,35 @@
     </div>
     <div id="work" class="materialize">
       <h2 class="mooth-fade-in">Mijn Werk</h2>
-
+        <div class="project mooth-fade-in-left">
+          <img src="../images/npo.png" alt="npo" />
+          <div class="info">
+            <p>Een website voor het npo. Waar de top 100 tour de france liedjes worden weergeven.
+            De website is special gemaakt voor de tour de france.</p>
+          </div>
+          <a class="hover" href="javascript:void(0)">Git</a>
+          <a class="hover" href="javascript:void(0)">Website</a>
+        </div>
+        <div class="project mooth-fade-in-right">
+          <img src="../images/teachertool.png" alt="npo" />
+          <div class="info">
+            <p>Een app voor docenten die ze kunnen gebruiken om hun lessen beter te maken.
+            Door dat de docenten een vragenlijst kan generen met een code kan hij de leerlingen
+            om feedback vragen. Om zo de lessen beter te maken.</p>
+          </div>
+          <a class="hover" href="javascript:void(0)">Git</a>
+          <a class="hover" href="javascript:void(0)">Website</a>
+        </div>
+        <div class="project mooth-fade-in-left">
+          <img src="../images/tablettour.png" alt="npo" />
+          <div class="info">
+            <p>Een digitale tour voor de eerste jaars van mijn school.
+              Zo komen ze er achter wat waar is zodat ze na de tour niet meer hoeven te zoeken.
+              Doordat de leerlingen de code van de poster scannen zien ze wat er op de afdeling is.</p>
+          </div>
+          <a class="hover" href="javascript:void(0)">Git</a>
+          <a class="hover" href="javascript:void(0)">Website</a>
+        </div>
     </div>
     <div id="contact" class="materialize">
       <h2 class="mooth-fade-in">Huur mij in</h2>
