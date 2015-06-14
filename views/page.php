@@ -28,12 +28,23 @@
           <p>Javascript</p><div class="bar3">30% 1,5 jaar</div>
           <p>Jquery</p><div class="bar4">40% 1.5 jaar</div>
         </div>
-        <p class="mooth-fade-in after-diagram">Andere skills: Photoshop en het responsive maken van websites voor elk platform.</p>
+        <p class="mooth-fade-in after-diagram">Respoonsive web app</p>
         <div class="images">
           <img src="../images/tablet.png" alt="tablet" class="tablet mooth-fade-in-left" />
           <img src="../images/desktop.png" alt="desktop" class="desktop mooth-fade-in-left" />
           <img src="../images/mobile.png" alt="mobile" class="mobile mooth-fade-in-right" /><br />
           <img src="../images/laptop.png" alt="laptop" class="laptop mooth-fade-in-right" />
+        </div>
+        <p class="mooth-fade-in after-diagram">Wordpress</p>
+        <div class="mooth-fade-in wordpress">
+          <img src="../images/wordpress.png" />
+          <p>orem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.
+            Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw,
+            toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde
+            om een font-catalogus te maken. Het heeft niet alleen vijf eeuwen overleefd maar is ook,
+            vrijwel onveranderd, overgenomen in elektronische letterzetting. Het is in de jaren '60 populair
+            geworden met de introductie van Letraset vellen met Lorem Ipsum passages en meer
+            recentelijk door desktop publishing software zoals Aldus PageMaker die versies van Lorem Ipsum bevatten.</p>
         </div>
     </div>
     <div id="work" class="materialize">
@@ -43,6 +54,8 @@
           <div class="info">
             <p>Een website voor het npo. Waar de top 100 tour de france liedjes worden weergeven.
             De website is special gemaakt voor de tour de france.</p>
+            <p>Talen:</p>
+            <p>HTML5, CSS3, PHP</p>
           </div>
           <a class="hover" href="javascript:void(0)">Git</a>
           <a class="hover" href="javascript:void(0)">Website</a>
@@ -53,6 +66,8 @@
             <p>Een app voor docenten die ze kunnen gebruiken om hun lessen beter te maken.
             Door dat de docenten een vragenlijst kan generen met een code kan hij de leerlingen
             om feedback vragen. Om zo de lessen beter te maken.</p>
+            <p>Talen:</p>
+            <p>HTML5, CSS3, PHP</p>
           </div>
           <a class="hover" href="javascript:void(0)">Git</a>
           <a class="hover" href="javascript:void(0)">Website</a>
@@ -63,14 +78,17 @@
             <p>Een digitale tour voor de eerste jaars van mijn school.
               Zo komen ze er achter wat waar is zodat ze na de tour niet meer hoeven te zoeken.
               Doordat de leerlingen de code van de poster scannen zien ze wat er op de afdeling is.</p>
+              <p>Talen:</p>
+              <p>HTML5, CSS3, PHP, Javascript</p>
           </div>
           <a class="hover" href="javascript:void(0)">Git</a>
           <a class="hover" href="javascript:void(0)">Website</a>
         </div>
     </div>
     <div id="contact" class="materialize">
-      <h2 class="mooth-fade-in">Huur mij in</h2>
-
+      <h2 class="mooth-fade-in">Contact</h2>
+        <p class="mooth-fade-in bigger">Ik doe freelance projecten</p>
+        <p class="mooth-fade-in">rickkorteman@hotmail.com</p>
     </div>
   </body>
 </html>

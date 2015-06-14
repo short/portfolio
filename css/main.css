@@ -12,7 +12,7 @@ p                                         { color: rgba(107, 185, 250, 1); }
 #about .showing-me                        { opacity: 1; transform: translateX(0px); }
 #about p                                  { width: 450px; display: block; margin: 40px auto 0 auto; text-align: center; }
 
-#skills                                   { width: 100%; height: 1100px; margin: -0.5px 0 0 0; padding: 0; }
+#skills                                   { width: 100%; height: 1620px; margin: -0.5px 0 0 0; padding: 0; }
 #skills h2                                { color: rgba(107, 185, 240, 1); text-align: center; padding: 120px 0 15px 0; width: 400px; display: block; margin: 0 auto; border-bottom: 1px solid rgba(107, 185, 240, 1); }
 #skills p                                 { width: 450px; display: block; margin: 40px auto 0 auto; text-align: center; }
 
@@ -22,38 +22,51 @@ p                                         { color: rgba(107, 185, 250, 1); }
 #skills .diagram .bar2                    { height: 25px; width: 0px; display: block; background-color: rgba(107, 185, 240, 1); color: #fff; padding: 10px 0 0 0; text-align: center; float: left; margin: -25px 0 0 100px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; }
 #skills .diagram .bar3                    { height: 25px; width: 0px; display: block; background-color: rgba(107, 185, 240, 1); color: #fff; padding: 10px 0 0 0; text-align: center; float: left; margin: -25px 0 0 100px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; }
 #skills .diagram .bar4                    { height: 25px; width: 0px; display: block; background-color: rgba(107, 185, 240, 1); color: #fff; padding: 10px 0 0 0; text-align: center; float: left; margin: -25px 0 0 100px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; }
-#skills .after-diagram                    { margin: 50px auto 0 auto; }
+#skills .after-diagram                    { margin: 50px auto 0 auto; font-size: 20px; }
 
-#skills .images                           { width: 960px; height: 450px; display: block; margin: 0 auto; }
+#skills .images                           { width: 960px; height: 450px; display: block; margin: 20px auto 0 auto; border-top: 1px solid rgba(107, 185, 240, 1); }
 #skills .images .tablet                   { margin: 0 0 0 160px; }
 #skills .images .desktop                  { margin: 0 0 0 -160px; }
 #skills .images .mobile                   { margin: 0 0 0 -220px; }
 #skills .images .laptop                   { margin: -240px 0 0 500px; }
 
+#skills .wordpress                        { width: 960px; height: 470px; display: block; margin: 20px auto 0 auto; border-top: 1px solid rgba(107, 185, 240, 1); }
+#skills .wordpress img                    { width: 250px; height: 250px; display: block; margin: 20px auto 0 auto;}
+#skills .wordpress p                      { width: 50%; display: block; margin: 20px auto 0 auto; text-align: center; }
+
 #work                                     { width: 100%; height: auto; margin: -20px 0 0 0; padding: 0 0 50px 0; }
 #work h2                                  { color: rgba(107, 185, 240, 1); text-align: center; padding: 120px 0 15px 0; width: 400px; display: block; margin: 0 auto 15px auto; border-bottom: 1px solid rgba(107, 185, 240, 1); }
 #work .project                            { width: 600px; height: 200px; display: block; margin: 0 auto 25px auto; }
 #work .project img                        { position: relative; float: left; }
-#work .project .info                      { width: 400px; height: 170px; display: block; background-color: #f0f0f0; float: left; }
-#work .project .info p                    { margin: 15px 10px 0 20px; color: rgba(107,185, 240, 1); }
+#work .project .info                      { width: 400px; height: 170px; display: block; background-color: #f0f0f0; float: left; overflow: auto; }
+#work .project .info p                    { margin: 15px 10px 0 20px; color: rgba(107, 185, 240, 1); }
 #work .project a                          { width: 200px; height: 30px; background-color: #f0f0f0; float: left; color: rgba(107, 185, 240, 1); text-decoration: none; text-align: center; }
 
-#contact                                  { width: 100%; height: 900px; margin: -20px 0 0 0; padding: 0; }
-#contact h2                               { color: rgba(107, 185, 240, 1); text-align: center; padding: 120px 0 15px 0; width: 400px; display: block; margin: 0 auto; border-bottom: 1px solid rgba(107, 185, 240, 1); }
+#contact                                  { width: 100%; height: 440px; margin: -20px 0 0 0; padding: 0; }
+#contact h2                               { color: rgba(107, 185, 240, 1); text-align: center; padding: 70px 0 15px 0; width: 400px; display: block; margin: 0 auto; border-bottom: 1px solid rgba(107, 185, 240, 1); }
+#contact p                                { text-align: center; }
+#contact .bigger                          { font-size: 22px; }
+
+.footer                                   { width: 100%; height: 55px; position: relative; border-top: 1px solid rgba(107, 185, 240, 1); }
+.footer img                               { width: 50px; height: 50px; display: block; margin: 0 auto; }
+.footer img:hover                         { border: 1px solid rgba(107, 185 ,240, 1); border-radius: 70px; }
 
 @media screen and (max-width:960px) {
   .header                                 { height: 350px; }
   .header h1                              { width: 200px; font-size: 50px; margin: 150px auto 0 auto; }
 
   #about                                  { margin: 350px 0 0 0; }
+  #skills                                 { height: 1800px; }
   #skills .images                         { width: 80%; }
   #skills .images .tablet                 { margin: 0 0 0 -30px; }
   #skills .images .laptop                 { margin: -240px 0 0 300px; }
+  #skills .wordpress                      { width: 80%; height: 600px}
+  #skills .wordpress p                    { width: 70%; }
 }
 
 @media screen and (max-width:601px) {
   #work .project                          { width: 400px; }
-  #work .project .info                    { width: 200px; overflow: scroll; }
+  #work .project .info                    { width: 200px; }
   #work .project a                        { width: 100px; height: 20px; padding: 10px 0 0 0; }
 }
 
@@ -66,13 +79,16 @@ p                                         { color: rgba(107, 185, 250, 1); }
   p                                       { width: 50%; }
 
   #about h2                               { width: 80%; }
+  #skills                                 { height: 1900px; }
   #skills h2                              { width: 80%; }
   #skills .images .tablet                 { width: 100px; margin: 170px 0 0 30px; }
   #skills .images .desktop                { width: 250px; margin: -300px 0 0 55px; }
   #skills .images .mobile                 { width: 50px;  margin: -100px 0 0 -120px; }
   #skills .images .laptop                 { width: 200px; margin: -180px 0 0 210px; }
+  #skills .wordpress p                    { width: 80%; }
   #work h2                                { width: 80%; }
   #contact h2                             { width: 80%; }
+  #contact p                              { width: 200px; display: block; margin: 20px auto 0 auto; }
 }
 
 @media screen and (max-width: 400px) {
