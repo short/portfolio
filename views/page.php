@@ -84,6 +84,28 @@
           <a class="hover" href="javascript:void(0)">Git</a>
           <a class="hover" href="javascript:void(0)">Website</a>
         </div>
+        <div class="project mooth-fade-in-right">
+          <img src="../images/webwijz.png" alt="webwijz" />
+          <div class="info">
+            <p>Webwijz is een opdracht van een externe opdrachtgever buiten school. Het is de bedoeling
+            om de laatste technieken die mogelijk zijn op websites te laten zien. Aan de hand hiervan
+            kan een andere opdrachtgever kiezen wat hij of zij wilt op haar/zijn website.</p>
+            <p>Talen:</p>
+            <p>HTML5, CSS3, PHP, Javascript</p>
+          </div>
+          <a class="hover" href="javascript:void(0)">Git</a>
+          <a class="hover" href="javascript:void(0)">Website</a>
+        </div>
+        <div class="project mooth-fade-in-left">
+          <img src="../images/webshop.png" alt="webshop" />
+          <div class="info">
+            <p></p>
+            <p>Talen, framework, template engines:</p>
+            <p>Laravel 5, blade, PHP, HTML5, CSS3</p>
+          </div>
+          <a class="hover" href="javascript:void(0)">Git</a>
+          <a class="hover" href="javascript:void(0)">Website</a>
+        </div>
     </div>
     <div id="contact" class="materialize">
       <h2 class="mooth-fade-in">Contact</h2>
