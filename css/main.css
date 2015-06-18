@@ -65,8 +65,11 @@ p                                         { color: rgba(107, 185, 250, 1); }
   .header                                 { height: 350px; }
   .header h1                              { width: 200px; font-size: 50px; margin: 150px auto 0 auto; }
 
-  #about                                  { margin: 350px 0 0 0; }
-  #skills                                 { height: 1900px; }
+  #about                                  { height: 1905px; margin: 350px 0 0 0; }
+
+  #about .latest                          { width: 210px; height: 800px; display: block; margin: 0 auto; }
+  #about .latest .project                 { clear: both; margin: 0 0 15px -15px; }
+
   #skills .images                         { width: 80%; }
   #skills .images .tablet                 { margin: 0 0 0 -30px; }
   #skills .images .laptop                 { margin: -240px 0 0 300px; }
@@ -98,7 +101,7 @@ p                                         { color: rgba(107, 185, 250, 1); }
   #skills .wordpress p                    { width: 80%; }
   #work h2                                { width: 80%; }
   #contact h2                             { width: 80%; }
-  #contact p                              { width: 200px; display: block; margin: 20px auto 0 auto; }
+  #contact p                              { width: 300px; display: block; margin: 20px auto 0 auto; }
 }
 
 @media screen and (max-width: 400px) {
