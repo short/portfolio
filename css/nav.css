@@ -7,8 +7,9 @@ nav ul                    { list-style-type: none; width: 594px; padding: 0; mar
 nav ul li                 { display: inline-block; float: left; margin: 0 0 0 1%; }
 nav ul li a               { color: white; font-size: 18px; }
 nav ul li a,visited       { display: block; padding: 15px; text-decoration: none; }
-.hover { display: inline-block; vertical-align: middle; -webkit-transform: translateZ(0); transform: translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); -webkit-backface-visibility: hidden; backface-visibility: hidden; -moz-osx-font-smoothing: grayscale; position: relative; overflow: hidden; }
-.hover:before { content: ""; position: absolute; z-index: -1; left: 50%; right: 50%; bottom: 0; background: rgba(107, 185, 240, 1); height: 4px; -webkit-transition-property: left, right; transition-property: left, right; -webkit-transition-duration: 0.3s; transition-duration: 0.3s; -webkit-transition-timing-function: ease-out; transition-timing-function: ease-out; }
+nav ul .item1			  { margin-left: -5px; }
+.hover 					  { display: inline-block; vertical-align: middle; -webkit-transform: translateZ(0); transform: translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); -webkit-backface-visibility: hidden; backface-visibility: hidden; -moz-osx-font-smoothing: grayscale; position: relative; overflow: hidden; }
+.hover:before 			  { content: ""; position: absolute; z-index: -1; left: 50%; right: 50%; bottom: 0; background: rgba(107, 185, 240, 1); height: 4px; -webkit-transition-property: left, right; transition-property: left, right; -webkit-transition-duration: 0.3s; transition-duration: 0.3s; -webkit-transition-timing-function: ease-out; transition-timing-function: ease-out; }
 .hover:hover:before, .hover:focus:before, .hover:active:before { left: 0; right: 0; }
 .menudown                 { display: none; }
 
@@ -21,11 +22,11 @@ nav ul li a,visited       { display: block; padding: 15px; text-decoration: none
   	nav ul li a:hover       { border-bottom: none; }
   	nav ul                  { max-height: 0em; margin-top: 25px; margin-left: -380px; }
 	nav ul .item1           { margin: 23px 0 0 0; }
-	nav ul .item1 a 				{ margin: 0 0 0 20px; }
-	nav ul .item2						{ margin: 0.1px 0 0 0; }
-	nav ul .item2 a					{ margin: 0 0 0 20px; }
-	nav ul .item3						{ margin: -0.5px 0 0 0; }
-	nav ul .item3 a					{ margin: 0 0 0 20px; }
+	nav ul .item1 a 		{ margin: 0 0 0 20px; }
+	nav ul .item2			{ margin: 0.1px 0 0 0; }
+	nav ul .item2 a			{ margin: 0 0 0 20px; }
+	nav ul .item3			{ margin: -0.5px 0 0 0; }
+	nav ul .item3 a			{ margin: 0 0 0 20px; }
 	.showing                { padding-top: 50px; width: 100%; max-height: 25em; margin: 0 0 0 -40px; }
   	.menudown               { width: 100%; background: rgba(0, 0, 0, 0.4); text-align: center; box-sizing: border-box; padding: 15px 10px; color: white; display: block; }
 	.lines                  { border-bottom: 17px double white; border-top: 6px solid white; content:""; height: 5px; width:30px; position: relative; margin-top: -20px; margin-left: 5px; cursor: pointer; }

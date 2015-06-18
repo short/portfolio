@@ -52,9 +52,11 @@ $(window).scroll(function(){
 
     if(done) {
       $(".bar1").animate({width:'200px'},1000);
-      $(".bar2").animate({width:'260px'},1000);
-      $(".bar3").animate({width:'120px'},1000);
+      $(".bar2").animate({width:'240px'},1000);
+      $(".bar3").animate({width:'140px'},1000);
       $(".bar4").animate({width:'160px'},1000);
+      $(".bar5").animate({width:'240px'},1000);
+      $(".bar6").animate({width:'160px'},1000);
       done = false;
     }
 

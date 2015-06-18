@@ -5,28 +5,43 @@
   </head>
   <body>
     <div id="about" class="materialize">
+      <h2 class="mooth-fade-in">Laatste projecten</h2>
+      <div class="latest">
+        <div class="project mooth-fade-in-left">
+          <img src="../images/webshop.png" alt="webshop" />
+          <a class="hover" href="#webshop">Meer info</a>
+        </div>
+        <div class="project mooth-fade-in-top">
+          <img src="../images/webwijz.png" alt="webwijz" />
+          <a class="hover" href="#webwijz">Meer info</a>
+        </div>
+        <div class="project mooth-fade-in-right">
+          <img src="../images/teachertool.png" alt="teachertool" />
+          <a class="hover" href="#teachertool">Meer info</a>
+        </div>
+      </div>
       <h2 class="mooth-fade-in main-header">Over Mij</h2>
         <img src="../images/me.jpg" alt="me" class="me mooth-fade-in-right" />
-        <p class="mooth-fade-in" >Het is al geruime tijd een bekend gegeven dat een lezer,
-          tijdens het bekijken van de layout van een pagina, afgeleid
-          wordt door de tekstuele inhoud. Het belangrijke punt van het
-          gebruik van Lorem Ipsum is dat het uit een min of meer normale
-          verdeling van letters bestaat, in tegenstelling tot "Hier uw tekst,
-          hier uw tekst" wat het tot min of meer leesbaar nederlands maakt.
-          Veel desktop publishing pakketten en web pagina editors gebruiken
-          tegenwoordig Lorem Ipsum als hun standaard model tekst, en een
-          zoekopdracht naar "lorem ipsum" ontsluit veel websites die nog in
-          aanbouw zijn. Verscheidene versies hebben zich ontwikkeld in de loop
-          van de jaren, soms per ongeluk soms expres (ingevoegde humor en dergelijke).</p>
+        <h3 class="mooth-fade-in">Rick Korteman</h3>
+        <h4 class="mooth-fade-in">Back-end developer</h4>
+        <p class="mooth-fade-in" >Momenteel doe ik de opleiding media development op het media college in
+          Amsterdam. Ik ben bezig met webapplicaties en websites. Bij die projecten doe ik vaak de back end maar
+          frond end vind ik ook leuk om te doen.</p>
+        <p class="mooth-fade-in">Ik ben geinteresseert in back end projecten. PHP of frameworks in PHP vind ik het
+          leukst om mee te werken. Ik ben zelf ook bezig met het leren van andere talen zoals Python(omdat ik het leuk
+          vind om te leren) en java om native apps te maken voor ios en android. Ik doe ook freelance projecten.
+        </p>
     </div>
     <div id="skills" class="materialize">
       <h2 class="mooth-fade-in">Mijn Vaardigheden</h2>
       <p class="mooth-fade-in">Hier is een overzicht van mijn vaardigheden.</p>
         <div class="bars diagram mooth-fade-in">
-          <p>HTML/CSS</p><div class="bar1">50% 1,5 jaar</div>
-          <p>PHP</p><div class="bar2">65% 1 jaar</div>
-          <p>Javascript</p><div class="bar3">30% 1,5 jaar</div>
-          <p>Jquery</p><div class="bar4">40% 1.5 jaar</div>
+          <p>HTML/CSS</p><div class="bar1">1,5 jaar</div>
+          <p>PHP</p><div class="bar2">1 jaar</div>
+          <p>Javascript</p><div class="bar3">1,5 jaar</div>
+          <p>Jquery</p><div class="bar4">1.5 jaar</div>
+          <p>Git</p><div class="bar5">1 jaar</div>
+          <p>laravel</p><div class="bar6">0.5 jaar</div>
         </div>
         <p class="mooth-fade-in after-diagram">Respoonsive web app</p>
         <div class="images">
@@ -38,18 +53,12 @@
         <p class="mooth-fade-in after-diagram">Wordpress</p>
         <div class="mooth-fade-in wordpress">
           <img src="../images/wordpress.png" />
-          <p>orem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.
-            Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw,
-            toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde
-            om een font-catalogus te maken. Het heeft niet alleen vijf eeuwen overleefd maar is ook,
-            vrijwel onveranderd, overgenomen in elektronische letterzetting. Het is in de jaren '60 populair
-            geworden met de introductie van Letraset vellen met Lorem Ipsum passages en meer
-            recentelijk door desktop publishing software zoals Aldus PageMaker die versies van Lorem Ipsum bevatten.</p>
+          <p class="mooth-fade-in">Een volledig responsive wordpress thema</p>
         </div>
     </div>
     <div id="work" class="materialize">
       <h2 class="mooth-fade-in">Mijn Werk</h2>
-        <div class="project mooth-fade-in-left">
+        <div class="project npo mooth-fade-in-left">
           <img src="../images/npo.png" alt="npo" />
           <div class="info">
             <p>Een website voor het npo. Waar de top 100 tour de france liedjes worden weergeven.
@@ -60,8 +69,8 @@
           <a class="hover" href="javascript:void(0)">Git</a>
           <a class="hover" href="javascript:void(0)">Website</a>
         </div>
-        <div class="project mooth-fade-in-right">
-          <img src="../images/teachertool.png" alt="npo" />
+        <div id="teachertool" class="project teacher mooth-fade-in-right">
+          <img src="../images/teachertool.png" alt="teachertool" />
           <div class="info">
             <p>Een app voor docenten die ze kunnen gebruiken om hun lessen beter te maken.
             Door dat de docenten een vragenlijst kan generen met een code kan hij de leerlingen
@@ -72,8 +81,8 @@
           <a class="hover" href="javascript:void(0)">Git</a>
           <a class="hover" href="javascript:void(0)">Website</a>
         </div>
-        <div class="project mooth-fade-in-left">
-          <img src="../images/tablettour.png" alt="npo" />
+        <div class="project tablet mooth-fade-in-left">
+          <img src="../images/tablettour.png" alt="tablettour" />
           <div class="info">
             <p>Een digitale tour voor de eerste jaars van mijn school.
               Zo komen ze er achter wat waar is zodat ze na de tour niet meer hoeven te zoeken.
@@ -84,7 +93,7 @@
           <a class="hover" href="javascript:void(0)">Git</a>
           <a class="hover" href="javascript:void(0)">Website</a>
         </div>
-        <div class="project mooth-fade-in-right">
+        <div id="webwijz" class="project webwijz mooth-fade-in-right">
           <img src="../images/webwijz.png" alt="webwijz" />
           <div class="info">
             <p>Webwijz is een opdracht van een externe opdrachtgever buiten school. Het is de bedoeling
@@ -96,10 +105,13 @@
           <a class="hover" href="javascript:void(0)">Git</a>
           <a class="hover" href="javascript:void(0)">Website</a>
         </div>
-        <div class="project mooth-fade-in-left">
+        <div id="webshop" class="project webshop mooth-fade-in-left">
           <img src="../images/webshop.png" alt="webshop" />
           <div class="info">
-            <p></p>
+            <p>Deze webshop is gemaakt als opdracht tijdens iProject op school. De leerling mocht zelf kiezen
+            wat hij/zij mocht maken. Ik heb gekozen om een webshop te maken voor de uitdaging en op te kijken
+            hoe een webshop in elkaar zit. Tijdens dit werkproces heb ik ook naar andere programmas die worden
+            gebruikt voor webshops zoals magento.</p>
             <p>Talen, framework, template engines:</p>
             <p>Laravel 5, blade, PHP, HTML5, CSS3</p>
           </div>
@@ -109,8 +121,7 @@
     </div>
     <div id="contact" class="materialize">
       <h2 class="mooth-fade-in">Contact</h2>
-        <p class="mooth-fade-in bigger">Ik doe freelance projecten</p>
-        <p class="mooth-fade-in">rickkorteman@hotmail.com</p>
+        <p class="mooth-fade-in bigger">rickkorteman@hotmail.com</p>
     </div>
   </body>
 </html>
