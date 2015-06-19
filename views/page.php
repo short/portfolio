@@ -11,7 +11,7 @@
           <img src="../images/webshop.png" alt="webshop" />
           <a class="hover" href="#webshop">Meer info</a>
         </div>
-        <div class="project mooth-fade-in-top">
+        <div class="project mooth-fade-in-down">
           <img src="../images/webwijz.png" alt="webwijz" />
           <a class="hover" href="#webwijz">Meer info</a>
         </div>
@@ -59,64 +59,72 @@
     <div id="work" class="materialize">
       <h2 class="mooth-fade-in">Mijn Werk</h2>
         <div class="project npo mooth-fade-in-left">
-          <img src="../images/npo.png" alt="npo" />
           <div class="info">
+              <img src="../images/npo.png" alt="npo" />
             <p>Een website voor het npo. Waar de top 100 tour de france liedjes worden weergeven.
             De website is special gemaakt voor de tour de france.</p>
+            <p>Groep</p>
+            <p>Taak: Frond end en back end</p>
             <p>Talen:</p>
             <p>HTML5, CSS3, PHP</p>
           </div>
-          <a class="hover" href="javascript:void(0)">Git</a>
-          <a class="hover" href="javascript:void(0)">Website</a>
+            <a class="hover" href="javascript:void(0)">Git</a>
+            <a class="hover" href="16642.hosts.ma-cloud.nl/projectOverDeSchutting/radio1/site/index.php" target="_blank">Website</a>
         </div>
         <div id="teachertool" class="project teacher mooth-fade-in-right">
-          <img src="../images/teachertool.png" alt="teachertool" />
           <div class="info">
+              <img src="../images/teachertool.png" alt="teachertool" />
             <p>Een app voor docenten die ze kunnen gebruiken om hun lessen beter te maken.
             Door dat de docenten een vragenlijst kan generen met een code kan hij de leerlingen
             om feedback vragen. Om zo de lessen beter te maken.</p>
+            <p>Groep</p>
+            <p>Taak: Back end</p>
             <p>Talen:</p>
             <p>HTML5, CSS3, PHP</p>
           </div>
           <a class="hover" href="javascript:void(0)">Git</a>
-          <a class="hover" href="javascript:void(0)">Website</a>
+          <a class="hover" href="http://16685.hosts.ma-cloud.nl/teachertool/App/" target="_blank">Website</a>
         </div>
         <div class="project tablet mooth-fade-in-left">
-          <img src="../images/tablettour.png" alt="tablettour" />
           <div class="info">
+              <img src="../images/tablettour.png" alt="tablettour" />
             <p>Een digitale tour voor de eerste jaars van mijn school.
               Zo komen ze er achter wat waar is zodat ze na de tour niet meer hoeven te zoeken.
               Doordat de leerlingen de code van de poster scannen zien ze wat er op de afdeling is.</p>
-              <p>Talen:</p>
-              <p>HTML5, CSS3, PHP, Javascript</p>
-          </div>
-          <a class="hover" href="javascript:void(0)">Git</a>
-          <a class="hover" href="javascript:void(0)">Website</a>
-        </div>
-        <div id="webwijz" class="project webwijz mooth-fade-in-right">
-          <img src="../images/webwijz.png" alt="webwijz" />
-          <div class="info">
-            <p>Webwijz is een opdracht van een externe opdrachtgever buiten school. Het is de bedoeling
-            om de laatste technieken die mogelijk zijn op websites te laten zien. Aan de hand hiervan
-            kan een andere opdrachtgever kiezen wat hij of zij wilt op haar/zijn website.</p>
+            <p>Groep</p>
+            <p>Taak: Back end</p>
             <p>Talen:</p>
             <p>HTML5, CSS3, PHP, Javascript</p>
           </div>
-          <a class="hover" href="javascript:void(0)">Git</a>
-          <a class="hover" href="javascript:void(0)">Website</a>
+          <a class="hover one" href="javascript:void(0)">Git</a>
+        </div>
+        <div id="webwijz" class="project webwijz mooth-fade-in-right">
+          <div class="info">
+              <img src="../images/webwijz.png" alt="webwijz" />
+            <p>Webwijz is een opdracht van een externe opdrachtgever buiten school. Het is de bedoeling
+            om de laatste technieken die mogelijk zijn op websites te laten zien. Aan de hand hiervan
+            kan een andere opdrachtgever kiezen wat hij of zij wilt op haar/zijn website.</p>
+            <p>Groep</p>
+            <p>Taak: Frond end en back end</p>
+            <p>Talen:</p>
+            <p>HTML5, CSS3, PHP, Javascript</p>
+          </div>
+          <a class="hover" href="https://github.com/Rickkorteman/Webwijzer" target="_blank">Git</a>
+          <a class="hover" href="http://16642.hosts.ma-cloud.nl/wordpress/" target="_blank">Website</a>
         </div>
         <div id="webshop" class="project webshop mooth-fade-in-left">
-          <img src="../images/webshop.png" alt="webshop" />
           <div class="info">
+              <img src="../images/webshop.png" alt="webshop" />
             <p>Deze webshop is gemaakt als opdracht tijdens iProject op school. De leerling mocht zelf kiezen
             wat hij/zij mocht maken. Ik heb gekozen om een webshop te maken voor de uitdaging en op te kijken
             hoe een webshop in elkaar zit. Tijdens dit werkproces heb ik ook naar andere programmas die worden
             gebruikt voor webshops zoals magento.</p>
+            <p>Alleen</p>
+            <p>Taak: Frond end en back end</p>
             <p>Talen, framework, template engines:</p>
             <p>Laravel 5, blade, PHP, HTML5, CSS3</p>
           </div>
-          <a class="hover" href="javascript:void(0)">Git</a>
-          <a class="hover" href="javascript:void(0)">Website</a>
+          <a class="hover one" href="https://github.com/Rickkorteman/iProject" target="_blank">Git</a>
         </div>
     </div>
     <div id="contact" class="materialize">

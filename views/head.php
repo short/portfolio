@@ -12,7 +12,7 @@
   <body>
 
   <div class="header mooth-bounce-in-up" id="header">
-    <h1>Welkom</h1>
+    <h1>Portfolio Rick Korteman</h1>
 	</div>
 
 <div class="wrapper">

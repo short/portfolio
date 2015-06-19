@@ -1,6 +1,6 @@
 body,html                                 { margin: 0; padding: 0; background:#f0f0f0; overflow-x: hidden; }
 .header                                   { position: fixed; height: 587px; width: 100%; display: block; background: url('../../images/header.jpg') 100% center no-repeat; }
-.header h1                                { color: #f0f0f0; display: block; width: 400px; font-size: 75px; margin: 225px auto 0 auto; text-align: center; z-index: 10; }
+.header h1                                { color: #f0f0f0; display: block; width: 600px; font-size: 50px; margin: 225px auto 0 auto; text-align: center; z-index: 10; }
 .materialize                              { background-color: #fff ; box-shadow: 0px 1px 1px #888; }
 .materialize:nth-child(2n+2)              { background-color: #f9f9f9; }
 .wrapper                                  { position: relative; margin: 0;}
@@ -9,9 +9,10 @@ p                                         { color: rgba(107, 185, 250, 1); }
 #about                                    { width: 100%; height: 1400px; margin: 587px 0 0 0; padding: 0; }
 #about h2                                 { color: rgba(107, 185, 240, 1); text-align: center; padding: 120px 0 15px 0; width: 400px; display: block; margin: 0 auto; border-bottom: 1px solid rgba(107, 185, 240, 1); }
 
-#about .latest                            { width: 700px; height: 250px; display: block; margin: 0 auto; }
+#about .latest                            { width: 700px; height: 250px; display: block; margin: 20px auto 0 auto; }
 #about .project                           { width: 200px; height: 240px; display: block; float: left; margin: 0 0 0 20px; }
 #about .project img                       { position: relative; width: 200px; height: 200px; margin: 35px 0 0 -25px; opacity: 1; border-radius: 0; float: left; }
+@-webkit-keyframes #about .project img    { 100% { opacity: 0; } }
 #about .project a                         { width: 200px; height: 30px; float: left; margin: 0 0 0 15px; text-align: center; padding: 10px 0 0 0; background-color: #f9f9f9; border-left: 3px solid rgba(107, 185, 240, 1); border-bottom: 3px solid rgba(107, 185, 240, 1); border-right: 3px solid rgba(107, 185, 240, 1); color: rgba(107, 185, 240, 1); text-decoration: none; }
 
 #about img                                { height: 250px; width: auto; display: block; margin: 75px auto 0 auto; border: 3px solid rgba(107, 185, 240, 1); border-radius: 25px; opacity: 0; transform: translateX(40px); transition: all 0.6s ease-in-out; }
@@ -46,11 +47,12 @@ p                                         { color: rgba(107, 185, 250, 1); }
 
 #work                                     { width: 100%; height: auto; margin: -20px 0 0 0; padding: 0 0 50px 0; }
 #work h2                                  { color: rgba(107, 185, 240, 1); text-align: center; padding: 120px 0 15px 0; width: 400px; display: block; margin: 0 auto 15px auto; border-bottom: 1px solid rgba(107, 185, 240, 1); }
-#work .project                            { width: 600px; height: 200px; display: block; margin: 0 auto 25px auto; }
+#work .project                            { width: 800px; height: 450px; display: block; margin: 0 auto -60px auto; }
 #work .project img                        { position: relative; float: left; }
-#work .project .info                      { width: 400px; height: 170px; display: block; background-color: #f0f0f0; float: left; overflow: auto; }
-#work .project .info p                    { margin: 15px 10px 0 20px; color: rgba(107, 185, 240, 1); }
-#work .project a                          { width: 200px; height: 30px; background-color: #f0f0f0; float: left; color: rgba(107, 185, 240, 1); text-decoration: none; text-align: center; }
+#work .project .info                      { height: 300px; display: block; background-color: #f0f0f0; float: left; overflow: auto; }
+#work .project .info p                    { margin: 15px 10px 0 200px; padding: 0 0 0 20px; color: rgba(107, 185, 240, 1); }
+#work .project a                          { width: 400px; height: 30px; background-color: #f0f0f0; float: left; color: rgba(107, 185, 240, 1); text-decoration: none; text-align: center; }
+#work .project .one                       { width: 800px; }
 
 #contact                                  { width: 100%; height: 440px; margin: -20px 0 0 0; padding: 0; }
 #contact h2                               { color: rgba(107, 185, 240, 1); text-align: center; padding: 70px 0 15px 0; width: 400px; display: block; margin: 0 auto; border-bottom: 1px solid rgba(107, 185, 240, 1); }
@@ -75,12 +77,16 @@ p                                         { color: rgba(107, 185, 250, 1); }
   #skills .images .laptop                 { margin: -240px 0 0 300px; }
   #skills .wordpress                      { width: 80%; height: 600px}
   #skills .wordpress p                    { width: 70%; }
+
+  #work .project                          { width: 600px; }
+  #work .project a                        { width: 300px; }
+  #work .project .one                     { width: 600px; }
 }
 
 @media screen and (max-width:601px) {
   #work .project                          { width: 400px; }
-  #work .project .info                    { width: 200px; }
-  #work .project a                        { width: 100px; height: 20px; padding: 10px 0 0 0; }
+  #work .project a                        { width: 200px; }
+  #work .project .one                     { width: 400px; }
 }
 
 @media screen and (max-width:570px) {
@@ -114,4 +120,8 @@ p                                         { color: rgba(107, 185, 250, 1); }
   #skills .images .desktop                { margin: -300px 0 0 25px; }
   #skills .images .mobile                 { margin: -100px 0 0 -140px; }
   #skills .images .laptop                 { margin: -180px 0 0 160px; }
+
+  #work .project                          { width: 95%; }
+  #work .project a                        { width: 47.5%; }
+  #work .project .one                     { width: 95%; }
 }
